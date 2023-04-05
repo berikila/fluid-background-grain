@@ -67,7 +67,7 @@ function render() {
 
  const speed = material.uniforms['time'].value = 0.000055 * tick;
 
-  lerpArrays(mouse, targetMouse, 0.00585 / speed);
+  lerpArrays(mouse, targetMouse, 0.00785 / speed);
 
   material.uniforms['mouse'].value.x = mouse[0];
   material.uniforms['mouse'].value.y = mouse[1];
