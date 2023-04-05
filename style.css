@@ -1,0 +1,10 @@
+
+
+
+#canvas {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle var(--shadow-size, var(--shadow-size-fallback)) at 20vw 0, var(--color-1, red) 100%, transparent 0), radial-gradient(circle var(--shadow-size, var(--shadow-size-fallback)) at 100vw 0, var(--color-2, red) 100%, transparent 0), radial-gradient(circle calc(var(--shadow-size, var(--shadow-size-fallback)) * 1.2) at 50vw 115vh, var(--color-3, red) 100%, transparent 0);
+
+}
