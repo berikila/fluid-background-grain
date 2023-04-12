@@ -193,7 +193,7 @@ function init() {
       b = mix(color1.b, color2.b, 0.5 + 0.5 * sin(4.0 - n * 8.0));
     
       
-      grain = cnoise(vec3(gl_FragCoord.xy * 1.8, time)) * 0.1;
+      grain = cnoise(vec3(gl_FragCoord.xy * 1.28, time)) * 0.1;
       r += grain;
       g += grain;
       b += grain;
